@@ -4,17 +4,15 @@ class Lifts extends React.Component {
 		this.state = {
 			lifts: [],
 
-			clicked: false
+			
 		}
 	}
   render () {
-  	debugger;
+  	// debugger;
     return (
-
-      <React.Fragment>
-      	<h2>this is data from Lifts</h2>
-      	<td>{this.props.data[0]}</td>	      
-      </React.Fragment>
+    	<div class="lifts">
+    		<h1 clas="title">Lift</h1>
+    	</div>
     );
   }
 }
