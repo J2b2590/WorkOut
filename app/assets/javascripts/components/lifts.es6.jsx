@@ -2,16 +2,18 @@ class Lifts extends React.Component {
 	constructor(props){
 		super(props)
 		this.state = {
+			lifts: [],
+
 			clicked: false
 		}
 	}
   render () {
-  	// debugger;
+  	debugger;
     return (
 
       <React.Fragment>
       	<h2>this is data from Lifts</h2>
-      	<h3>{this.props.data[0].liftname}</h3>	      
+      	<td>{this.props.data[0]}</td>	      
       </React.Fragment>
     );
   }
