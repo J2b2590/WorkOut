@@ -8,10 +8,10 @@ class Lifts extends React.Component {
 		}
 	}
   render () {
-  	// debugger;
+  	debugger;
     return (
-    	<div class="lifts">
-    		<h1 clas="title">Lift</h1>
+    	<div className="lifts">
+    		<h1 className="title">Lift</h1>
     	</div>
     );
   }
