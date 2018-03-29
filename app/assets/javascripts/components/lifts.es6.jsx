@@ -23,7 +23,9 @@ class Lifts extends React.Component {
     return (
     	<div className="lifts">
     		<h1 className="title">Lift</h1>
-    		<Lift lifts={this.state.lifts}/>	
+
+    		<Lift lifts={this.state.lifts}/>
+
     	</div>
 
     );
